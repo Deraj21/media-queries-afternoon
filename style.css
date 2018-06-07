@@ -1,0 +1,97 @@
+body {
+  margin: auto;
+  text-align: center;
+}
+
+h1 { /* landing huge text */
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+}
+
+h2 { /* Services text */
+  font-size: 50px;
+  font-family: Arial;
+}
+
+h3 { /* menu title, buttons, indiv. services  */
+  font-family: cursive;
+  font-style: italic;
+  font-size: 20px;
+  margin: 20px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: rgb(56, 56, 56);
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+button {
+  background-color: orange;
+  padding: 10px;
+  margin: 20px;
+}
+
+button h3 {
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: rgb(15, 13, 33);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: orange;
+}
+
+.links {
+  display: none;
+}
+
+.landing {
+  background-image: url("./src/img/landing-banner.jpg");
+  background-size: cover;
+  color: white;
+  padding: 50px;
+}
+
+.services-section {
+  margin: auto;
+}
+
+.service {
+  margin: 70px;
+  max-width: 400px;
+}
+
+@media(min-width: 768px) {
+  
+  h1 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;
+  }
+  
+  h2 {
+    font-size: 70px;
+    font-family: Arial;
+  }
+  
+  h3 {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 40px;
+  }
+  
+  .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+}
